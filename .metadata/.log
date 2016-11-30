@@ -8,3 +8,8 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.core.net 1 0 2016-11-29 19:05:32.929
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.resources 2 2 2016-11-29 20:05:26.426
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2016-11-29 20:05:26.428
+!MESSAGE The project description file (.project) for 'Phase3' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
