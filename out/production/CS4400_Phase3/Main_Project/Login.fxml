@@ -11,7 +11,7 @@
 
 <VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main_Project.Controller">
   <children>
-    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" onMouseClicked="#setLoginBtn" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <children>
             <Text fill="#c9aa2e" layoutX="280.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
                <font>
@@ -35,7 +35,7 @@
                   <DropShadow />
                </effect>
             </Button>
-            <Button layoutX="355.0" layoutY="256.0" mnemonicParsing="false" text="Register">
+            <Button layoutX="355.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#setRegistrationBtn" text="Register">
                <effect>
                   <DropShadow />
                </effect>

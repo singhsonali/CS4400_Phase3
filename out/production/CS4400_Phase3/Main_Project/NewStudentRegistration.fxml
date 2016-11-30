@@ -13,7 +13,7 @@
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <children>
-            <Text fill="#c9aa2e" layoutX="280.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+            <Text fill="#c9aa2e" layoutX="168.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Student Registration">
                <font>
                   <Font size="28.0" />
                </font>
@@ -25,26 +25,33 @@
                   <Font name="BebasNeue" size="17.0" />
                </font>
             </Text>
-            <Text layoutX="114.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+            <Text layoutX="114.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GT Email Address">
                <font>
                   <Font name="BebasNeue" size="17.0" />
                </font>
             </Text>
-            <Button alignment="BASELINE_LEFT" layoutX="168.0" layoutY="258.0" mnemonicParsing="false" onMouseClicked="#setLoginBtn" text="Login">
-               <effect>
-                  <DropShadow />
-               </effect>
-            </Button>
-            <Button layoutX="355.0" layoutY="256.0" mnemonicParsing="false" text="Register">
+            <Button layoutX="265.0" layoutY="321.0" mnemonicParsing="false" text="Create">
                <effect>
                   <DropShadow />
                </effect>
             </Button>
             <ImageView fitHeight="170.0" fitWidth="145.0" layoutX="475.0" layoutY="213.0">
                <image>
-                  <Image url="@Resources/ta_dah_buzz_2_buld_0.jpg" />
+                  <Image url="@../../../../../Final_Github/CS4400_Phase3/src/Main_Project/Resources/ta_dah_buzz_2_buld_0.jpg" />
                </image>
             </ImageView>
+            <Text layoutX="114.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password">
+               <font>
+                  <Font name="BebasNeue" size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="112.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+               <font>
+                  <Font name="BebasNeue" size="17.0" />
+               </font>
+            </Text>
+            <TextField layoutX="299.0" layoutY="266.0" />
+            <TextField layoutX="300.0" layoutY="213.0" />
       </children>
     </AnchorPane>
   </children>
