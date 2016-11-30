@@ -11,6 +11,7 @@ import javafx.scene.Parent;
 public class Controller {
     private Scene root;
     private Stage primaryStage;
+
     @FXML
     private Button loginBtn;
     @FXML
