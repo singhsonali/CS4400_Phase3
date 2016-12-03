@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="384.0" prefWidth="265.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main_Project.Controller">
+  <children>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="395.0" prefWidth="639.0">
+         <children>
+            <Text fill="#c3b736" layoutX="106.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Me" wrappingWidth="62.12890625">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+            <Text fill="#244cab" layoutX="89.0" layoutY="132.0" onMouseClicked="#setEditProfile" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Profile" underline="true">
+               <font>
+                  <Font name="BebasNeue" size="17.0" />
+               </font>
+            </Text>
+            <Button layoutX="113.0" layoutY="273.0" mnemonicParsing="false" text="Back">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Text fill="#4053e3" layoutX="78.0" layoutY="187.0" onMouseClicked="#setMyApplication" strokeType="OUTSIDE" strokeWidth="0.0" text="My Application" underline="true">
+               <font>
+                  <Font name="BebasNeue" size="17.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+  </children>
+</VBox>

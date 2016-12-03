@@ -10,6 +10,24 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    /**
+     Stage.
+     */
+    public static Stage stage;
+
+    /**
+     Config 1 scene.
+     */
+    private Scene loginScene;
+    private Scene mainPageScene;
+    private Scene newStudentRegistrationScene;
+
+    private final static Main main
+            = new Main();
+
+    public static Stage getInstance() {
+        return stage;
+    }
 
     @Override
     public void start(Stage primaryStage) throws Exception{
