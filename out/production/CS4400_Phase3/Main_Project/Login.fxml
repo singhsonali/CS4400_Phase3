@@ -45,6 +45,21 @@
                   <Image url="@Resources/ta_dah_buzz_2_buld_0.jpg" />
                </image>
             </ImageView>
+            <Text fx:id="invalidMsg" fill="RED" layoutX="153.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INVALID CREDENTIALS. Don't have an account? Register below!" visible="false" wrappingWidth="353.91748046875">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+            <Text fx:id="invalidUsername" fill="RED" layoutX="475.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No Username Entered." visible="false" wrappingWidth="122.91748046875">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+            <Text fx:id="invalidPassword" fill="RED" layoutX="475.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No Password Entered." visible="false" wrappingWidth="122.91748046875">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
       </children>
     </AnchorPane>
   </children>
