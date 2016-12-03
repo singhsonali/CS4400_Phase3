@@ -18,40 +18,65 @@
                   <Font size="28.0" />
                </font>
             </Text>
-            <TextField layoutX="300.0" layoutY="114.0" />
-            <TextField layoutX="299.0" layoutY="167.0" />
-            <Text layoutX="112.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+            <TextField fx:id="usernameNSR" layoutX="235.0" layoutY="111.0" />
+            <TextField fx:id="gtEmailAddr" layoutX="234.0" layoutY="164.0" />
+            <Text layoutX="47.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
                <font>
                   <Font name="BebasNeue" size="17.0" />
                </font>
             </Text>
-            <Text layoutX="114.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GT Email Address">
+            <Text layoutX="49.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GT Email Address">
                <font>
                   <Font name="BebasNeue" size="17.0" />
                </font>
             </Text>
-            <Button layoutX="265.0" layoutY="321.0" mnemonicParsing="false" text="Create">
+            <Button layoutX="290.0" layoutY="321.0" mnemonicParsing="false" onMouseClicked="#setCreateBtn" text="Create">
                <effect>
                   <DropShadow />
                </effect>
             </Button>
             <ImageView fitHeight="170.0" fitWidth="145.0" layoutX="475.0" layoutY="213.0">
                <image>
-                  <Image url="@../../../../../Final_Github/CS4400_Phase3/src/Main_Project/Resources/ta_dah_buzz_2_buld_0.jpg" />
+                  <Image url="@Resources/ta_dah_buzz_2_buld_0.jpg" />
                </image>
             </ImageView>
-            <Text layoutX="114.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password">
+            <Text layoutX="49.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password">
                <font>
                   <Font name="BebasNeue" size="17.0" />
                </font>
             </Text>
-            <Text layoutX="112.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+            <Text layoutX="47.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
                <font>
                   <Font name="BebasNeue" size="17.0" />
                </font>
             </Text>
-            <TextField layoutX="299.0" layoutY="266.0" />
-            <TextField layoutX="300.0" layoutY="213.0" />
+            <TextField fx:id="password2NSR" layoutX="234.0" layoutY="263.0" />
+            <TextField fx:id="password1NSR" layoutX="235.0" layoutY="210.0" />
+            <Text fx:id="emailExistsMsg" fill="RED" layoutX="424.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This e-mail exists. Please log in." visible="false">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="invalidUsernameNSR" fill="RED" layoutX="424.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No Username Entered." visible="false">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="invalidPasswordNSR" fill="RED" layoutX="424.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No Password entered." visible="false">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="wrongPasswordNSR" fill="RED" layoutX="424.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Passwords Don't Match" visible="false">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="invalidgtEmailAddrNSR" fill="RED" layoutX="433.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No E-mail Entered." visible="false">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Text>
       </children>
     </AnchorPane>
   </children>
