@@ -15,6 +15,7 @@ import java.awt.event.ActionEvent;
 
 public class Controller {
     private Scene root;
+//    public Stage primaryStage = Main.primaryStage;
     public Stage primaryStage = new Stage();
 
     @FXML
@@ -44,7 +45,7 @@ public class Controller {
             if (password != null || !password.getText().trim().isEmpty()) {
                 invalidPassword.setVisible(false);
             }
-            System.out.println("No username entered.");
+//            System.out.println("No username entered.");
 //            username.setText("Please fill in a username!");
             invalidUsername.setVisible(true);
          }
@@ -53,7 +54,7 @@ public class Controller {
             if (username != null || !username.getText().trim().isEmpty()){
                 invalidUsername.setVisible(false);
             }
-            System.out.println("No password entered.");
+//            System.out.println("No password entered.");
 //            password.setText("Please fill in a password!");
             invalidPassword.setVisible(true);
         } else {
@@ -136,7 +137,7 @@ public class Controller {
                 .isEmpty()){
             //CHECK TO SEE IF WE HAVE AN INPUTTED USERNAME
             invalidUsernameNSR.setVisible(true);
-            System.out.println("This is the usernameNSR: " + usernameNSR.toString());
+//            System.out.println("This is the usernameNSR: " + usernameNSR.toString());
         } else if(gtEmailAddr == null || gtEmailAddr.getText().trim()
                 .isEmpty()){
             //CHECK TO SEE IF WE HAVE AN INPUTTED PASSWORD
